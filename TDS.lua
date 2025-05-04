@@ -78,7 +78,12 @@ function WalkSpeed()
 end
 
 -- Anti_AFK --
-while not game:IsLoaded() do wait() end
+repeat wait() until game:IsLoaded()
+    game:GetService("Players").LocalPlayer.Idled:connect(function()
+    game:GetService("VirtualUser"):ClickButton2(Vector2.new())
+end)
+
+--[[while not game:IsLoaded() do wait() end
 repeat wait() until game.Players.LocalPlayer.Character
 Players = game:GetService("Players")
 local GC = getconnections or get_signal_cons
@@ -93,7 +98,7 @@ Players.LocalPlayer.Idled:Connect(function()
 	VirtualUser:CaptureController()
 	VirtualUser:ClickButton2(Vector2.new())
   	end)
-end
+end]]
 
 local Window = Fluent:CreateWindow({
     Title = "Tower Defense Simulator " .. Fluent.Version,
