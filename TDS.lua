@@ -373,7 +373,10 @@ Toggle:OnChanged(function(Value)
 				while workspace.Towers:GetChildren()[6].Upgrades["3"].Plane.Transparency == 1 do wait(0.1)
 					upgradeTower(Towers:GetChildren()[6])
 				end
-				wait(90)
+				while #Towers:GetChildren() ~= 0 do
+					wait(1)
+				end
+				wait(10)
 			end
 		end)
 	end
