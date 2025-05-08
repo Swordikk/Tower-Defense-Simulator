@@ -9,13 +9,6 @@ local Humanoid = Character:FindFirstChildOfClass("Humanoid")
 local HumanoidRootPart = Character:FindFirstChild("HumanoidRootPart")
 local Towers = workspace:FindFirstChild("Towers")
 
---[[
-	33.00354, 6, -30.7063665, 1, 0, 0, 0, 1, 0, 0, 0, 1
-	33.6582298, 6, -25.4820633, 1, 0, 0, 0, 1, 0, 0, 0, 1
-	33.3362312, 6, -20.6263847, 1, 0, 0, 0, 1, 0, 0, 0, 1
-	33.00354, 6, -15.7057018, 1, 0, 0, 0, 1, 0, 0, 0, 1
-	]]
-
 -- local tables --
 local towers = {"Scout", "Sniper", "Soldier", "Paintballer", "Demoman", "Hunter", "Crook Boss", "Medic", "Militant", "Freezer", "Rocketeer", "Shotgunner", "Farm", "Trapper", "Ace Pilot", "Pyromancer", "Military Base", "Mortar", "Turret", "Mercenary Base", "Electroshocker", "Cowboy", "Warden", "Commander", "DJ Booth", "Minigunner", "Ranger", "Pursuit", "Gatling Gun", "Brawler", "Necromancer", "Accelerator", "Engineer"}
 local WreckedBattlefieldtowers = {"Farm", "Ace Pilot", "Crook Boss", "Commander", "Pyromancer"}
