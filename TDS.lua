@@ -336,31 +336,31 @@ Toggle:OnChanged(function(Value)
 				while workspace.Towers:GetChildren()[4].Upgrades["1"].Goggles.Transparency == 1 do wait(0.1)
 					upgradeTower(Towers:GetChildren()[4])
 				end
-				while workspace.Towers:GetChildren()[5].Upgrades["1"].Goggles.Transparency == 1 do wait(0.1)
+				while workspace.Towers:GetChildren()[5].Upgrades["1"].Goggles.Transparency == 1 and #workspace.Towers:GetChildren() ~= 0 do wait(0.1)
 					upgradeTower(Towers:GetChildren()[5])
 				end
-				while workspace.Towers:GetChildren()[6].Upgrades["1"].Goggles.Transparency == 1 do wait(0.1)
+				while workspace.Towers:GetChildren()[6].Upgrades["1"].Goggles.Transparency == 1 and #workspace.Towers:GetChildren() ~= 0 do wait(0.1)
 					upgradeTower(Towers:GetChildren()[6])
 				end
-				while workspace.Towers:GetChildren()[1].Upgrades["2"].R6_Torso.Transparency == 1 do wait(0.1)
+				while workspace.Towers:GetChildren()[1].Upgrades["2"].R6_Torso.Transparency == 1 and #workspace.Towers:GetChildren() ~= 0 do wait(0.1)
 					upgradeTower(Towers:GetChildren()[1])
 				end
-				while workspace.Towers:GetChildren()[2].Upgrades["2"].R6_Torso.Transparency == 1 do wait(0.1)
+				while workspace.Towers:GetChildren()[2].Upgrades["2"].R6_Torso.Transparency == 1 and #workspace.Towers:GetChildren() ~= 0 do wait(0.1)
 					upgradeTower(Towers:GetChildren()[2])
 				end
-				while workspace.Towers:GetChildren()[3].Upgrades["2"].R6_Torso.Transparency == 1 do wait(0.1)
+				while workspace.Towers:GetChildren()[3].Upgrades["2"].R6_Torso.Transparency == 1 and #workspace.Towers:GetChildren() ~= 0 do wait(0.1)
 					upgradeTower(Towers:GetChildren()[3])
 				end
-				while workspace.Towers:GetChildren()[4].Upgrades["2"].R6_Torso.Transparency == 1 do wait(0.1)
+				while workspace.Towers:GetChildren()[4].Upgrades["2"].R6_Torso.Transparency == 1 and #workspace.Towers:GetChildren() ~= 0 do wait(0.1)
 					upgradeTower(Towers:GetChildren()[4])
 				end
-				while workspace.Towers:GetChildren()[5].Upgrades["2"].R6_Torso.Transparency == 1 do wait(0.1)
+				while workspace.Towers:GetChildren()[5].Upgrades["2"].R6_Torso.Transparency == 1 and #workspace.Towers:GetChildren() ~= 0 do wait(0.1)
 					upgradeTower(Towers:GetChildren()[5])
 				end
-				while workspace.Towers:GetChildren()[6].Upgrades["2"].R6_Torso.Transparency == 1 do wait(0.1)
+				while workspace.Towers:GetChildren()[6].Upgrades["2"].R6_Torso.Transparency == 1 and #workspace.Towers:GetChildren() ~= 0 do wait(0.1)
 					upgradeTower(Towers:GetChildren()[6])
 				end
-				while workspace.Towers:GetChildren()[1].Upgrades["3"].Plane.Transparency == 1 do wait(0.1)
+				while workspace.Towers:GetChildren()[1].Upgrades["3"].Plane.Transparency == 1 and #workspace.Towers:GetChildren() ~= 0 do wait(0.1)
 					upgradeTower(Towers:GetChildren()[1])
 				end
 				while workspace.Towers:GetChildren()[2].Upgrades["3"].Plane.Transparency == 1 and #workspace.Towers:GetChildren() ~= 0 do wait(0.1)
