@@ -374,7 +374,6 @@ Toggle:OnChanged(function(Value)
 				while #Towers:GetChildren() ~= 0 do
 					wait(1)
 				end
-				wait(10)
 			end
 		end)
 	end
