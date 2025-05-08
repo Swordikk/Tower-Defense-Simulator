@@ -363,19 +363,19 @@ Toggle:OnChanged(function(Value)
 				while workspace.Towers:GetChildren()[1].Upgrades["3"].Plane.Transparency == 1 do wait(0.1)
 					upgradeTower(Towers:GetChildren()[1])
 				end
-				while workspace.Towers:GetChildren()[2].Upgrades["3"].Plane.Transparency == 1 do wait(0.1)
+				while workspace.Towers:GetChildren()[2].Upgrades["3"].Plane.Transparency == 1 and #workspace.Towers:GetChildren() ~= 0 do wait(0.1)
 					upgradeTower(Towers:GetChildren()[2])
 				end
-				while workspace.Towers:GetChildren()[3].Upgrades["3"].Plane.Transparency == 1 do wait(0.1)
+				while workspace.Towers:GetChildren()[3].Upgrades["3"].Plane.Transparency == 1 and #workspace.Towers:GetChildren() ~= 0 do wait(0.1)
 					upgradeTower(Towers:GetChildren()[3])
 				end
-				while workspace.Towers:GetChildren()[4].Upgrades["3"].Plane.Transparency == 1 do wait(0.1)
+				while workspace.Towers:GetChildren()[4].Upgrades["3"].Plane.Transparency == 1 and #workspace.Towers:GetChildren() ~= 0 do wait(0.1)
 					upgradeTower(Towers:GetChildren()[4])
 				end
-				while workspace.Towers:GetChildren()[5].Upgrades["3"].Plane.Transparency == 1 do wait(0.1)
+				while workspace.Towers:GetChildren()[5].Upgrades["3"].Plane.Transparency == 1 and #workspace.Towers:GetChildren() ~= 0 do wait(0.1)
 					upgradeTower(Towers:GetChildren()[5])
 				end
-				while workspace.Towers:GetChildren()[6].Upgrades["3"].Plane.Transparency == 1 do wait(0.1)
+				while workspace.Towers:GetChildren()[6].Upgrades["3"].Plane.Transparency == 1 and #workspace.Towers:GetChildren() ~= 0 do wait(0.1)
 					upgradeTower(Towers:GetChildren()[6])
 				end
 				while #workspace.Towers:GetChildren() ~= 0 do
