@@ -189,55 +189,58 @@ Toggle:OnChanged(function(Value)
 				while workspace.Towers:FindFirstChild("Checker") == nil do wait(0.1)
 					placeTower("Crook Boss", Vector3.new(11.4159966, 2.34999824, 10.5649462, 0, 0, 0, 0, 1, 0, 0, 0, 0))
 				end
-				while workspace.Towers:GetChildren()[1].Upgrades["2"].EarPiece.Transparency == 1 do wait(0.1)
+				while workspace.Towers:GetChildren()[1].Upgrades["2"].EarPiece.Transparency == 1 and #Towers:GetChildren() do wait(0.1)
 					upgradeTower(Towers:GetChildren()[1])
 				end
-				while workspace.Towers:FindFirstChild("Default") == nil do wait(0.1)
+				while workspace.Towers:FindFirstChild("Default") == nil and #Towers:GetChildren() do wait(0.1)
 					placeTower("Trapper", Vector3.new(2.63791084, 2.3500061, -37.7612457, -1, 0, 0, 0, 1, 0, 0, 0, -1))
 				end
-				while workspace.Towers:GetChildren()[2].Upgrades["2"].Torso1.Transparency == 1 do wait(0.1)
+				while workspace.Towers:GetChildren()[2].Upgrades["2"].Torso1.Transparency == 1 and #Towers:GetChildren() do wait(0.1)
 					upgradeTower(Towers:GetChildren()[2])
 				end
-				while #workspace.Towers:GetChildren() ~= 3 do wait(0.1)
+				while #workspace.Towers:GetChildren() ~= 3 and #Towers:GetChildren() do wait(0.1)
 					placeTower("Trapper", Vector3.new(2.63707829, 2.35000563, -34.6940994, -0.961341619, 0, 0.275358737, 0, 1.00000012, -0, -0.275358737, 0, -0.961341619))
 				end
-				while workspace.Towers:GetChildren()[3].Upgrades["2"].Torso1.Transparency == 1 do wait(0.1)
+				while workspace.Towers:GetChildren()[3].Upgrades["2"].Torso1.Transparency == 1 and #Towers:GetChildren() do wait(0.1)
 					upgradeTower(Towers:GetChildren()[3])
 				end
-				while #workspace.Towers:GetChildren() ~= 4 do wait(0.1)
+				while #workspace.Towers:GetChildren() ~= 4 and #Towers:GetChildren() do wait(0.1)
 					placeTower("Trapper", Vector3.new(-2.55636215, 2.35000801, -32.3431625, 0.0338419713, 0, -0.999427199, -0, 1, -0, 0.999427199, 0, 0.0338419713))
 				end
-				while workspace.Towers:GetChildren()[4].Upgrades["2"].Torso1.Transparency == 1 do wait(0.1)
+				while workspace.Towers:GetChildren()[4].Upgrades["2"].Torso1.Transparency == 1 and #Towers:GetChildren() do wait(0.1)
 					upgradeTower(Towers:GetChildren()[4])
 				end
-				while #workspace.Towers:GetChildren() ~= 5 do wait(0.1)
+				while #workspace.Towers:GetChildren() ~= 5 and #Towers:GetChildren() ~= 0 do wait(0.1)
 					placeTower("Crook Boss", Vector3.new(9.16937828, 2.349998, 12.585495, -0.109067462, 0, -0.99403441, 0, 1.00000012, -0, 0.99403441, -0, -0.109067462))
 				end
-				while workspace.Towers:GetChildren()[5].Upgrades["2"].EarPiece.Transparency == 1 do wait(0.1)
+				while workspace.Towers:GetChildren()[5].Upgrades["2"].EarPiece.Transparency == 1 and #Towers:GetChildren() ~= 0 do wait(0.1)
 					upgradeTower(Towers:GetChildren()[5])
 				end
-				while #workspace.Towers:GetChildren() ~= 6 do wait(0.1)
+				while #workspace.Towers:GetChildren() ~= 6 and #Towers:GetChildren() ~= 0 do wait(0.1)
 					placeTower("Crook Boss", Vector3.new(8.55912399, 2.34999847, 9.5717392, 0.99990809, 0, 0.0135630034, 0, 1, -0, -0.0135630053, 0, 0.99990797))
 				end
-				while workspace.Towers:GetChildren()[6].Upgrades["2"].EarPiece.Transparency == 1 do wait(0.1)
+				while workspace.Towers:GetChildren()[6].Upgrades["2"].EarPiece.Transparency == 1 and #Towers:GetChildren() ~= 0 do wait(0.1)
 					upgradeTower(Towers:GetChildren()[6])
 				end
-				while #workspace.Towers:GetChildren() ~= 7 do wait(0.1)
+				while #workspace.Towers:GetChildren() ~= 7 and #Towers:GetChildren() ~= 0 do wait(0.1)
 					placeTower("Crook Boss", Vector3.new(10.7829161, 2.34999871, 7.54335117, 0.759056091, 0, 0.651025295, 0, 1, -0, -0.651025355, 0, 0.759055972))
 				end
-				while workspace.Towers:GetChildren()[7].Upgrades["2"].EarPiece.Transparency == 1 do wait(0.1)
+				while workspace.Towers:GetChildren()[7].Upgrades["2"].EarPiece.Transparency == 1 and #Towers:GetChildren() ~= 0 do wait(0.1)
 					upgradeTower(Towers:GetChildren()[7])
 				end
-				while #workspace.Towers:GetChildren() ~= 8 do wait(0.1)
+				while #workspace.Towers:GetChildren() ~= 8 and #Towers:GetChildren() ~= 0 do wait(0.1)
 					placeTower("Crook Boss", Vector3.new(5.63760138, 2.34999847, 8.8894434, 0.610479712, 0, 0.792031944, 0, 1.00000012, -0, -0.792031944, 0, 0.610479712))
 				end
-				while workspace.Towers:GetChildren()[8].Upgrades["2"].EarPiece.Transparency == 1 do wait(0.1)
+				while workspace.Towers:GetChildren()[8].Upgrades["2"].EarPiece.Transparency == 1 and #Towers:GetChildren() ~= 0 do wait(0.1)
 					upgradeTower(Towers:GetChildren()[8])
 				end
-				while workspace.Towers:GetChildren()[1].Upgrades["3"].MoneyCase.Transparency == 1 do wait(0.1)
+				while workspace.Towers:GetChildren()[1].Upgrades["3"].MoneyCase.Transparency == 1 and #Towers:GetChildren() ~= 0 do wait(0.1)
 					upgradeTower(Towers:GetChildren()[1])
 				end
-				wait(70)
+				while #Towers:GetChildren() ~= 0 do
+					wait(1)
+				end
+				wait(5)
 			elseif Value == "Pulluted Wasteland 2" then
 				while Towers:FindFirstChild("Default") == nil do wait(0.1)
 					placeTower("Brawler", Vector3.new(1.12966609, 2.35000801, -7.74175596, 0.331033051, 0, 0.943619132, 0, 1, 0, -0.943619251, 0, 0.331033021))
