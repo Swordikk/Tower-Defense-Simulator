@@ -8,7 +8,7 @@ local Character = Player.Character or Player.CharacterAdded:Wait()
 local Humanoid = Character:FindFirstChildOfClass("Humanoid")
 local HumanoidRootPart = Character:FindFirstChild("HumanoidRootPart")
 local Towers = workspace:FindFirstChild("Towers")
-local TowersGetChildren = TowersGetChildren
+local TowersGetChildren = Towers:GetChildren()
 
 -- local tables --
 local towers = {"Scout", "Sniper", "Soldier", "Paintballer", "Demoman", "Hunter", "Crook Boss", "Medic", "Militant", "Freezer", "Rocketeer", "Shotgunner", "Farm", "Trapper", "Ace Pilot", "Pyromancer", "Military Base", "Mortar", "Turret", "Mercenary Base", "Electroshocker", "Cowboy", "Warden", "Commander", "DJ Booth", "Minigunner", "Ranger", "Pursuit", "Gatling Gun", "Brawler", "Necromancer", "Accelerator", "Engineer"}
