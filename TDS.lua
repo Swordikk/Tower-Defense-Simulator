@@ -89,12 +89,6 @@ if game.Players.LocalPlayer.Name == "MAC9IH4UK" or game.Players.LocalPlayer.Name
 		game:GetService("ReplicatedStorage"):WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
 	end
 
-	function WalkSpeed()
-		while game:GetService("RunService").RenderStepped:wait() do
-			Humanoid.WalkSpeed = _G.WalkSpeed
-		end
-	end
-
 	local function whilePlaceTower(towerName, position, count)
 		while #Towers:GetChildren() ~= count and #Towers:GetChildren() ~= 0 and  _G.AutoFarm do wait(0.5)
 			placeTower(towerName, position)
@@ -352,18 +346,6 @@ if game.Players.LocalPlayer.Name == "MAC9IH4UK" or game.Players.LocalPlayer.Name
 		end
 	end)
 	Options.MyToggle:SetValue(false)
-
-	local Input = Tabs.Misc:AddInput("Input", {
-		Title = "WalkSpeed",
-		Default = "",
-		Placeholder = "input",
-		Numeric = false, -- Only allows numbers
-		Finished = false, -- Only calls callback when you press enter
-		Callback = function(Value)
-			_G.WalkSpeed = Value
-			WalkSpeed()
-		end
-	})
 	--Tabs Themes--
 	--Tabs Themes--
 	--Tabs Visuals--
